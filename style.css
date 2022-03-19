@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 460px;
+  padding: 5px;
+  background: linear-gradient(to right, red, purple);
+  max-height: 160px;
+  filter: drop-shadow 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+.projetos {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  color: #1c1c1c;
+}
+
+.projetos-titulo {
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 56px;
+  text-decoration: none;
+}
+.projetos-item a {
+  color: #1c1c1c;
+  list-style-type: none;
+  font-size: 36px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 32px;
+}
+
+.linkedin-page {
+  height: 40px;
+}
+.dark {
+  background: #000000;
+}
+
+.dark .container {
+  background: #333439;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+  color: #f7f7f7;
+}
+.dark .perfil-foto {
+  background: rgb(56, 179, 31);
+  background: linear-gradient(
+    90deg,
+    rgba(56, 179, 31, 1) 0%,
+    rgba(74, 255, 0, 1) 50%,
+    rgba(0, 254, 255, 1) 100%
+  );
+}
+.dark .projetos {
+  color: #1c1c1c;
+}
+.dark .tema button {
+  background: #1c1c1c;
+  color: #f6f6f6;
+  border: 2px solid #f7f7f7;
+}
