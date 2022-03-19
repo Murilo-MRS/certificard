@@ -48,8 +48,13 @@ body {
   box-sizing: border-box;
   border-radius: 100px;
 }
+.portfolio {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
 .projetos {
-  margin-top: 32px;
   display: flex;
   flex-direction: column;
   padding: 32px;
@@ -84,6 +89,31 @@ body {
 .linkedin-page {
   height: 40px;
 }
+.conquistas {
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.conquistas ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.conquistas li {
+  list-style-type: none;
+}
+
+.conquistas img {
+  max-height: 80px;
+}
+
 .dark {
   background: #000000;
 }
@@ -103,7 +133,7 @@ body {
     rgba(0, 254, 255, 1) 100%
   );
 }
-.dark .projetos {
+.dark .portfolio {
   color: #1c1c1c;
 }
 .dark .tema button {
